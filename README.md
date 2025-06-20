@@ -5,7 +5,7 @@
 ![ ](screens/screen1.png)
 
 # [📥] Installation
-### [1] Import immediately in **html**
+### [Variation 1] Import immediately in **html**
 
 > [!NOTE]
 > Suitable if you do not plan to edit the theme.
@@ -14,7 +14,7 @@
 <!-- import "tui" -->
 <link rel="stylesheet" href="https://raw.githubusercontent.com/lozzyiech/tui-css-theme/main.css"> 
 ```
-### [2] Import in **css**
+### [Variation 2] Import in **css**
 
 > [!NOTE]
 > Suitable if you want to slightly change/supplement the theme.
@@ -23,7 +23,7 @@
 /* import "tui" */
 @import url("https://raw.githubusercontent.com/lozzyiech/tui-css-theme/main.css")
 ```
-### [3] Install css
+### [Variation 3] Install css
 
 > [!NOTE]
 > Suitable if you want to change the theme a lot.
