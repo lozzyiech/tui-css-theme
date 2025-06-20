@@ -1,0 +1,112 @@
+/* Заголовки */
+.terminal-h1 {
+    font-size: 1.8rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+  }
+  
+  /* Списки */
+  .terminal-ul {
+    list-style: none;
+    padding-left: 1rem;
+    color: var(--text-color);
+  }
+  
+  .terminal-ul li {
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .terminal-ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+  }
+  
+  /* Инпуты */
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem 0;
+    border: none;
+    border-bottom: 2px solid var(--accent-color);
+    background-color: transparent;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    outline: none;
+  }
+  
+  /* Кнопки */
+  .tui-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--accent-color);
+    background-color: transparent;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .tui-btn:hover {
+    background-color: var(--accent-color);
+    color: #000;
+  }
+  textarea {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid var(--text-color); /* Чёткая рамка */
+    background-color: transparent;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    line-height: 1.4;
+    outline: none; /* Убираем фокус по умолчанию */
+    resize: vertical;
+    min-height: 100px;
+    box-shadow: none;
+  }
+  
+  /* При фокусе можно добавить лёгкое подсвечивание */
+  textarea:focus {
+    border-color: var(--accent-color);
+  }
+
+.tab-links {
+list-style: none;
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+.tab-link {
+color: var(--text-color);
+text-decoration: none;
+padding: 0 1rem;
+font-size: 0.95rem;
+transition: color 0.3s ease;
+}
+
+.tab-link:hover,
+.tab-link.active {
+color: var(--accent-color);
+}
+/* Горизонтальная линия */
+.tui-hline {
+    width: 100%;
+    height: 1px;
+    background-color: var(--text-color);
+    margin: 1.5rem 0;
+  }
+  
+  /* Вертикальная линия */
+  .tui-vline {
+    width: 1px;
+    height: 1em; /* высота по высоте строки текста */
+    background-color: var(--text-color);
+    margin: 0 0.5rem;
+  }

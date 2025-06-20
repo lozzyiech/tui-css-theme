@@ -1,0 +1,20 @@
+.panel {
+    position: relative;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid var(--text-color); /* Чёткая квадратная обводка */
+    background-color: transparent;
+    max-width: 800px;
+  }
+  
+  .panel::before {
+    content: attr(data-title);
+    position: absolute;
+    top: -0.9em;
+    left: 1em;
+    background: var(--bg-color);
+    padding: 0 0.4em;
+    font-size: 0.9em;
+    color: var(--text-color);
+    font-family: var(--font-family);
+  }

@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #0d0d0d;
+    --text-color: #cfcfcf;
+    --accent-color: #ffffff;
+    --font-family: 'Fira Code', monospace;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+  }
