@@ -1,0 +1,8 @@
+/* === Terminal UI — All-in-One CSS Theme === */
+/* Import all styles from GitHub repository */
+
+@import url('https://raw.githubusercontent.com/lozzyiech/tui-css-theme/main/css/base.css'); 
+@import url('https://raw.githubusercontent.com/lozzyiech/tui-css-theme/main/css/theme.css'); 
+@import url('https://raw.githubusercontent.com/lozzyiech/tui-css-theme/main/css/panel.css'); 
+@import url('https://raw.githubusercontent.com/lozzyiech/tui-css-theme/main/css/layout.css'); 
+@import url('https://raw.githubusercontent.com/lozzyiech/tui-css-theme/main/css/controls.css'); 
