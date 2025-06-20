@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding-top: 40px; /* Чтобы контент не перекрывался .tab */
+    padding-top: 40px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
   .footer {
     width: 100%;
     padding: 1rem 0;
-    background-color: #1a1a1a;
+    background-color: var(--footer-color);
     color: var(--text-color);
     text-align: center;
     font-size: 0.9rem;

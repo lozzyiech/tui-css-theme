@@ -2,7 +2,7 @@
     position: relative;
     margin: 2rem auto;
     padding: 1rem;
-    border: 1px solid var(--text-color); /* Чёткая квадратная обводка */
+    border: 1px solid var(--text-color);
     background-color: transparent;
     max-width: 800px;
   }
